@@ -1,0 +1,152 @@
+* {
+     margin:0;
+     padding:0;
+}
+
+body {
+     font-family: 'Raleway', sans-serif;
+     /* margin-bottom:20000px; */
+}
+
+footer {
+     text-align:center;
+     padding:50px 0px 0px 0px;
+     font-weight:bold;
+     background-color:goldenrod;
+     border-top:0.5px black solid;
+     
+}
+
+footer li {
+     display:inline;
+}
+
+footer ul {
+     padding:20px 0 10px 0;
+}
+
+.container {
+     width:60%;
+     margin:auto;
+}
+
+.navbar {
+     width:100%;
+     border-bottom:0.5px black solid;
+     min-height:40px;
+     position:fixed;
+     font-weight:bold;
+     background-attachment:fixed;
+     background-color:goldenrod;
+}
+
+.navbar ul {
+     list-style-type:none;
+     padding-right:30px;
+     font-size:1.2em;
+}
+
+.navbar nav li {
+     display:inline;
+}
+
+
+.navbar img {
+     padding-left:10px;
+     border:none;
+     margin-top:15px;
+     margin-bottom:15px;
+}
+
+.navbar h1 {
+     margin:25px;
+}  
+
+.navbar nav {
+     float:right;
+}
+
+.navbar #branding {
+     float:left;  
+}
+
+.showcase {
+     background:url(inglewood.jpg);
+     background-size:auto;
+     background-attachment:fixed;
+     padding-top:100px;
+     height:850px;
+     color:black;
+     border-bottom:black 0.5px solid;
+}
+
+.showcasep1{
+     font-size:1em;
+     font-weight:bold;
+     padding-top:200px;
+     letter-spacing:2px;
+     font-family: 'Montserrat', sans-serif;
+}
+
+.showcasep2 {
+     padding-top:15px;
+     /* text-align:center; */
+     font-size:3.5em;
+     font-family: 'Montserrat', sans-serif;
+     letter-spacing:1px;
+     width:60%;
+     font-weight:bold;
+}
+
+/* .box {
+     width:30%;
+     margin:auto;
+     min-height:50px;
+     margin-top:20px;
+     padding:20px;
+     text-align:center;
+     float:left;
+} */
+
+.homepagetext h1 {
+     margin-top:200px;
+}
+
+.homepagetext p {
+     margin:200px 0px 200px 0px;
+     text-align:center;
+     font-size:1.5em;
+     line-height:1.5em;
+}
+
+/* #sidebar {
+     position:fixed;
+     display:inline-block;
+     margin:0;
+     padding:0; 
+     float:right;
+     width:200px;
+     height:100%;
+     background:blue;
+}
+
+#sidebar ul li {
+
+
+
+
+}
+
+#sidebar.toggle-btn {
+     display:block;
+     width:30px;
+     height:5px;
+     background:black;
+     margin: 3px 0px;
+} */
+
+
+
+::-webkit-scrollbar { 
+    display: none; 
+}
